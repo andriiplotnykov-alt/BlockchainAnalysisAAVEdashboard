@@ -41,7 +41,7 @@ The Power BI dashboard provides an interactive exploration of AAVE protocol acti
 - **Transaction activity breakdown** showing the relative share of deposits, borrows, repays, and withdrawals per asset
 - **Donut chart** illustrating transaction distribution across token tickers
 
-![AAVE Transaction Dashboard](./docs/Dashboard_screenshot.png)
+![AAVE Transaction Dashboard](AAVE%20Transactions/docs/Dashboard_screenshot.png)
 
 ---
 
