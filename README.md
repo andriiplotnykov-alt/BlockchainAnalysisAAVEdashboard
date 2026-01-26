@@ -39,18 +39,9 @@ The Power BI dashboard provides an interactive exploration of AAVE protocol acti
 
 - **Asset selector slicer** allowing token-level analysis
 - **Transaction activity breakdown** showing the relative share of deposits, borrows, repays, and withdrawals per asset
-- **Analytical table** displaying:
-  - Token symbol
-  - Number of unique users per asset
-  - Percentage share of each transaction type
-  - Median transaction value per asset
-- **KPI indicators** highlighting:
-  - Total unique users
-  - Median deposit amount
-- **Time-series visualization** of transaction volumes aggregated by month
 - **Donut chart** illustrating transaction distribution across token tickers
 
-The dashboard is designed to support both high-level protocol monitoring and granular asset-level analysis.
+![AAVE Transaction Dashboard](./docs/Dashboard_screenshot.png)
 
 ---
 
