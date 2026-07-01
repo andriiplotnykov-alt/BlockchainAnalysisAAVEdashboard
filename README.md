@@ -7,6 +7,17 @@ Raw transaction data was extracted directly from the AAVE blockchain in JSON for
 
 ---
 
+## Dashboard Features & Insights
+The Power BI dashboard provides an interactive exploration of AAVE protocol activity:
+
+- **Asset selector slicer** allowing token-level analysis
+- **Transaction activity breakdown** showing the relative share of deposits, borrows, repays, and withdrawals per asset
+- **Donut chart** illustrating transaction distribution across token tickers
+
+![AAVE Transaction Dashboard](AAVE%20Transactions/docs/Dashboard_screenshot.png)
+
+---
+
 ## Data Pipeline & Transformation
 - Extracted raw AAVE transaction traces (JSON) from an on-chain data source
 - Parsed and separated heterogeneous transaction types into four analytical fact tables:
@@ -31,17 +42,6 @@ The analytical model follows a star schema optimized for performance and clarity
   - Date dimension (centralized calendar for time-series analysis)
 
 This structure enables efficient slicing by asset, time, and transaction type while maintaining analytical flexibility.
-
----
-
-## Dashboard Features & Insights
-The Power BI dashboard provides an interactive exploration of AAVE protocol activity:
-
-- **Asset selector slicer** allowing token-level analysis
-- **Transaction activity breakdown** showing the relative share of deposits, borrows, repays, and withdrawals per asset
-- **Donut chart** illustrating transaction distribution across token tickers
-
-![AAVE Transaction Dashboard](AAVE%20Transactions/docs/Dashboard_screenshot.png)
 
 ---
 
